@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<style>
+.xelk_form{
+color: blue;
+right: 20%;
+
+}
+
+.xelk_span span{
+position: inline;
+
+}
+</style>
+</head>
+<body>
+<h1> Xelkalai Unit Converter </h1>
+<form action="do_xelk.cgi" method="GET" class="xelk_form">
+	Original Units: <input type="text"  name="origunits" > <br><br>
+	Conversion Units: <input type="text"  name="convunits"> <br><br>
+	Conversion Value:    <input type="number"  name="numunits"> <br><br>
+	Conversion Factor: <input type="number" name="convfactor" value=1.0> <br><br>
+	<input type="submit" value="Convert">
+</form>
+<div class="xelk_span">Possible conversion units:
+<ul>xlarn</ul>
+<ul>parsec</ul>
+<ul>kilometer</ul>
+<ul>terrestrialyear</ul>
+<ul>xarnyear</ul>
+<ul>terrestialminute</ul>
+</div>
+
+</body>
+</HTML>
