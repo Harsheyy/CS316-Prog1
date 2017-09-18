@@ -8,29 +8,29 @@ right: 20%;
 
 }
 
-.xelk_span span{
-position: inline;
+.xelk_span div{
+float: right;
 
 }
 </style>
 </head>
 <body>
-<h1> Xelkalai Unit Converter </h1>
-<form action="do_xelk.cgi" method="GET" class="xelk_form">
+<h1 align = "center"> Xelkalai Unit Converter </h1>
+<div align = "center" class="xelk_span">Possible conversion units:
+xlarn, parsec, kilometer, terrestrialyear, xarnyear, terrestialminute
+</div>
+<br>
+
+<form  align = "center" action="do_xelk.cgi" method="GET" class="xelk_form">
 	Original Units: <input type="text"  name="origunits" > <br><br>
 	Conversion Units: <input type="text"  name="convunits"> <br><br>
 	Conversion Value:    <input type="number"  name="numunits" step="0.000001"> <br><br>
 	Conversion Factor: <input type="number" name="convfactor" value=1.0 step="0.000001"> <br><br>
 	<input type="submit" value="Convert">
 </form>
-<div class="xelk_span">Possible conversion units:
-<ul>xlarn</ul>
-<ul>parsec</ul>
-<ul>kilometer</ul>
-<ul>terrestrialyear</ul>
-<ul>xarnyear</ul>
-<ul>terrestialminute</ul>
-</div>
+
+
+
 
 </body>
 </HTML>
